@@ -25,6 +25,7 @@ public class LoginTest extends BaseTest {
         Assert.assertEquals(loginPage.getHomePageText(),"File Areas");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
         //Hello
+        //Hello2
     }
 
     /*@Test
